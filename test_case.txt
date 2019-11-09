@@ -1,0 +1,55 @@
+this is codd!
+<=,5,_,a>
+<=,6,_,b>
+<+,a,b,t1>
+<=,t1,_,c>
+<out,_,_,c>
+the symbol is:a
+the symbol value is：1
+the symbol is:b
+the symbol value is：2
+the symbol is:c
+the symbol value is：5
+the symbol is:t1
+the symbol value is：4
+this is pc@@@@@@:0
+############################################
+this is rc:<=,5,_,a>
+this is id:=
+this is the left identifier:a
+this is the variable position:0
+this is l_r:5
+变量a的值为：5
+this is pc@@@@@@:1
+############################################
+this is rc:<=,6,_,b>
+this is id:=
+this is the left identifier:b
+this is the variable position:1
+this is l_r:6
+变量b的值为：6
+this is pc@@@@@@:2
+############################################
+this is rc:<+,a,b,t1>
+this is id:+
+this is the left identifier haha###:t1
+this is the left variable position:3
+this is l_r:a
+the right identifier value is:5
+this is l_r:b
+the right identifier value is:6
+this is value:11
+this is the ###+ ###value:11
+this is pc@@@@@@:3
+############################################
+this is rc:<=,t1,_,c>
+this is id:=
+this is the left identifier:c
+this is the variable position:2
+this is l_r:t1
+变量c的值为：11
+this is pc@@@@@@:4
+############################################
+this is rc:<out,_,_,c>
+this is id:out
+this is the output: variable c value is: 11
